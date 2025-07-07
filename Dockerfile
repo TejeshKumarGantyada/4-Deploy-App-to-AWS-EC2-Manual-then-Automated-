@@ -4,7 +4,7 @@ FROM node:18
 # Set working directory inside container
 WORKDIR /app
 
-# Copy package.json and install dependencies
+# Copy package.json and install dependencies.
 COPY package*.json ./
 RUN npm install
 
